@@ -1,0 +1,158 @@
+{
+    "Auto_LD": {
+        "next": [
+            "sub_LD1",
+            "sub_LD2",
+            "sub_cjB",
+            "sub_gbBz",
+            "sub_sj",
+            "sub_zbwbB",
+            "sub_ZDjxB",
+            "sub_zdngB",
+            "sub_lkfjB",
+            "sub_fhB",
+            "sub_okBz",
+            "sub_okBx",
+            "sub_djks",
+            "Auto_LD"
+        ]
+    },
+    "sub_LD1": {
+        "is_sub": true,
+        "recognition": "TemplateMatch",
+        "template": "LD1.png",
+        "roi": [
+            0,
+            1,
+            94,
+            73
+        ],
+        "action": "Click",
+        "next": [
+            "sub_cjB",
+            "Auto_LD"
+        ]
+    },
+    "sub_LD2": {
+        "is_sub": true,
+        "recognition": "TemplateMatch",
+        "template": "LD2.png",
+        "roi": [
+            0,
+            1,
+            94,
+            73
+        ],
+        "action": "Click",
+        "next": [
+            "sub_cjB",
+            "Auto_LD"
+        ]
+    },
+    "sub_cjB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "参加",
+        "roi": [
+            306,
+            58,
+            155,
+            284
+        ],
+        "action": "Click"
+    },
+    "sub_zbwbB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "准备",
+        "roi": [
+            274,
+            892,
+            176,
+            76
+        ],
+        "action": "Click",
+        "target": [
+            235,
+            909,
+            41,
+            39
+        ]
+    },
+    "sub_zdngB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "失败",
+        "roi": [
+            198,
+            871,
+            243,
+            97
+        ],
+        "action": "Click"
+    },
+    "sub_fhfjB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "返回房间",
+        "roi": [
+            419,
+            1159,
+            172,
+            84
+        ],
+        "action": "Click"
+    },
+    "sub_lkfjB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "离开房间",
+        "roi": [
+            140,
+            1170,
+            151,
+            68
+        ],
+        "action": "Click"
+    },
+    "sub_XZ": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "关",
+        "roi": [
+            11,
+            1082,
+            100,
+            72
+        ],
+        "action": "Click"
+    },
+    "sub_gzB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "关注",
+        "roi": [
+            501,
+            820,
+            140,
+            233
+        ],
+        "action": "Click"
+    },
+    "sub_mtl": {
+        "is_sub": true,
+        "enabled": false,
+        "recognition": "TemplateMatch",
+        "template": "mtl.png",
+        "roi": [
+            355,
+            0,
+            103,
+            69
+        ],
+        "action": "Click",
+        "next": [
+            "Auto_HD"
+        ]
+    }
+}

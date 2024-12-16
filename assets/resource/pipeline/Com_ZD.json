@@ -1,0 +1,97 @@
+{
+    "sub_DRtzB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "挑战",
+        "roi": [
+            243,
+            1030,
+            173,
+            85
+        ],
+        "action": "Click"
+    },
+    "sub_ZDjxB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "继续",
+        "roi": [
+            287,
+            1160,
+            143,
+            84
+        ],
+        "action": "Click"
+    },
+    "sub_ZDzcB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "再次挑战",
+        "roi": [
+            437,
+            1160,
+            166,
+            77
+        ],
+        "action": "Click"
+    },
+    "sub_cy": {
+        "is_sub": true,
+        "recognition": "TemplateMatch",
+        "template": "cy.png",
+        "roi": [
+            407,
+            11,
+            42,
+            50
+        ],
+        "action": "Click",
+        "next": [
+            "sub_hfy"
+        ]
+    },
+    "sub_hfy": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "回复",
+        "roi": [
+            199,
+            385,
+            71,
+            62
+        ],
+        "action": "Click",
+        "next": [
+            "sub_sy"
+        ]
+    },
+    "sub_sy": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "使用",
+        "roi": [
+            461,
+            888,
+            126,
+            76
+        ],
+        "action": "Click",
+        "next": [
+            "Auto_DR"
+        ]
+    },
+    "ZD_fqB": {
+        "recognition": "OCR",
+        "expected": "放弃",
+        "roi": [
+            144,
+            1024,
+            171,
+            82
+        ],
+        "action": "Click",
+        "next": [
+            "StartUp"
+        ]
+    }
+}

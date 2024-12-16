@@ -1,0 +1,80 @@
+{
+    "StartUp": {
+        "next": [
+            "sub_gbBz",
+            "sub_gbBx",
+            "zybz",
+            "sub_djks",
+            "sub_okBz",
+            "sub_okBy",
+            "sub_djpm",
+            "sub_fhB",
+            "sub_dljl",
+            "sub_fqBz",
+            "sub_qdapp"
+        ]
+    },
+    "zybz": {
+        "recognition": "OCR",
+        "expected": "关卡",
+        "roi": [
+            291,
+            1064,
+            143,
+            102
+        ]
+    },
+    "sub_djks": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "点击开始",
+        "roi": [
+            259,
+            1074,
+            185,
+            82
+        ],
+        "action": "Click"
+    },
+    "sub_djpm": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "点击屏幕",
+        "roi": [
+            276,
+            1173,
+            175,
+            69
+        ],
+        "action": "Click"
+    },
+    "sub_dljl": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "登录奖励",
+        "roi": [
+            205,
+            335,
+            314,
+            137
+        ],
+        "action": "Click"
+    },
+    "sub_qdapp": {
+        "is_sub": true,
+        "action": "StartApp",
+        "package": "com.leiting.wf/com.leiting.sdk.activity.PrivacyActivity"
+    },
+    "sub_fhB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "返回",
+        "roi": [
+            12,
+            1218,
+            89,
+            62
+        ],
+        "action": "Click"
+    }
+}

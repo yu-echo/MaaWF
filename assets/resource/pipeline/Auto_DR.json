@@ -1,0 +1,82 @@
+{
+    "Auto_DR": {
+        "next": [
+            "sub_hdB",
+            "sub_KRJZ",
+            "sub_KRJZ_CJ",
+            "sub_KRJZ_1",
+            "sub_okBy",
+            "sub_okBx",
+            "sub_okBx_dr",
+            "sub_XZ",
+            "sub_DRtzB",
+            "sub_sy",
+            "sub_zctz",
+            "sub_ZDjxB",
+            "Auto_DR"
+        ]
+    },
+    "sub_KRJZ": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "狂热激战",
+        "roi": [
+            345,
+            410,
+            300,
+            97
+        ],
+        "action": "Click"
+    },
+    "sub_KRJZ_CJ": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "超级",
+        "roi": [
+            294,
+            793,
+            103,
+            85
+        ],
+        "action": "Click"
+    },
+    "sub_KRJZ_1": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "不可续战",
+        "roi": [
+            181,
+            987,
+            134,
+            69
+        ],
+        "action": "Click"
+    },
+    "sub_zctz": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "再次挑战",
+        "roi": [
+            446,
+            819,
+            148,
+            72
+        ],
+        "action": "Click"
+    },
+    "sub_okBx_dr": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "OK",
+        "roi": [
+            291,
+            787,
+            146,
+            451
+        ],
+        "action": "Click",
+        "next": [
+            "sub_cy"
+        ]
+    }
+}

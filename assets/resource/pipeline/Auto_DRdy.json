@@ -1,0 +1,145 @@
+{
+    "Auto_DRdy": {
+        "next": [
+            "DR_cs",
+            "ZD_fqB",
+            "sub_gbBx",
+            "sub_hdB",
+            "sub_DRtz",
+            "sub_drglz1",
+            "sub_drglz2",
+            "sub_DRtzB",
+            "sub_ZDjxB",
+            "sub_ZDzcB",
+            "sub_okBz",
+            "sub_hd"
+        ]
+    },
+    "DR_cs": {
+        "recognition": "OCR",
+        "expected": "还剩0次",
+        "roi": [
+            574,
+            760,
+            145,
+            92
+        ],
+        "next": [
+            "StartUp"
+        ]
+    },
+    "sub_hd": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "今天",
+        "roi": [
+            372,
+            288,
+            286,
+            65
+        ],
+        "action": "Swipe",
+        "begin": [
+            703,
+            1157,
+            1,
+            1
+        ],
+        "end": [
+            703,
+            396,
+            1,
+            1
+        ]
+    },
+    "sub_hdB": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "活动",
+        "roi": [
+            52,
+            1100,
+            110,
+            74
+        ],
+        "action": "Click"
+    },
+    "sub_mg": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "迷宫",
+        "roi": [
+            376,
+            825,
+            165,
+            142
+        ],
+        "action": "Click"
+    },
+    "sub_DRtz": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "次数",
+        "roi": [
+            554,
+            822,
+            81,
+            62
+        ],
+        "action": "Click"
+    },
+    "sub_drglz1": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "管理者",
+        "roi": [
+            186,
+            614,
+            138,
+            81
+        ],
+        "action": "Click"
+    },
+    "sub_drglz2": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "管理者",
+        "roi": [
+            173,
+            899,
+            124,
+            75
+        ],
+        "action": "Click",
+        "next": [
+            "sub_si"
+        ]
+    },
+    "sub_gj": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "高级",
+        "roi": [
+            307,
+            428,
+            106,
+            90
+        ],
+        "action": "Click"
+    },
+    "sub_si": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "是",
+        "roi": [
+            471,
+            788,
+            104,
+            66
+        ],
+        "action": "Click",
+        "next": [
+            "Auto_DRdy"
+        ]
+    }
+}
