@@ -1,0 +1,100 @@
+{
+    "Auto_HD": {
+        "next": [
+            "sub_hdB",
+            "sub_skjls",
+            "sub_gqdj",
+            "sub_dryx",
+            "sub_zdxzK",
+            "sub_hdzm",
+            "sub_kszm"
+        ]
+    },
+    "sub_skjls": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "精灵兽",
+        "roi": [
+            27,
+            551,
+            303,
+            96
+        ],
+        "action": "Click"
+    },
+    "sub_gqdj": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "超级",
+        "roi": [
+            364,
+            551,
+            126,
+            634
+        ],
+        "action": "Click"
+    },
+    "sub_dryx": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "多人游戏",
+        "roi": [
+            327,
+            827,
+            233,
+            90
+        ],
+        "action": "Click"
+    },
+    "sub_zdxzK": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "关",
+        "roi": [
+            483,
+            130,
+            107,
+            63
+        ],
+        "action": "Click"
+    },
+    "sub_hdzm": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "招募",
+        "roi": [
+            343,
+            793,
+            101,
+            72
+        ],
+        "action": "Click"
+    },
+    "sub_kszm": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "开始招募",
+        "roi": [
+            452,
+            883,
+            153,
+            77
+        ],
+        "action": "Click"
+    },
+    "HD_tlbz": {
+        "recognition": "OCR",
+        "expected": "体力不足",
+        "roi": [
+            283,
+            99,
+            155,
+            65
+        ],
+        "next": [
+            "sub_qxBx",
+            "sub_fhB",
+            "Auto_LD"
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "sub_gbBx": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "关闭",
+        "roi": [
+            281,
+            1141,
+            152,
+            74
+        ],
+        "action": "Click"
+    },
+    "sub_gbBz": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "关闭",
+        "roi": [
+            109,
+            865,
+            194,
+            155
+        ],
+        "action": "Click"
+    },
+    "sub_okBz": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "OK",
+        "roi": [
+            291,
+            787,
+            146,
+            451
+        ],
+        "action": "Click"
+    },
+    "sub_okBy": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "OK",
+        "roi": [
+            462,
+            780,
+            115,
+            89
+        ],
+        "action": "Click"
+    },
+    "sub_okBx": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "OK",
+        "roi": [
+            151,
+            1149,
+            423,
+            94
+        ],
+        "action": "Click"
+    },
+    "sub_qxBx": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "取消",
+        "roi": [
+            293,
+            1074,
+            133,
+            59
+        ],
+        "action": "Click"
+    },
+    "sub_sj": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "升级",
+        "roi": [
+            300,
+            549,
+            122,
+            71
+        ],
+        "action": "Click"
+    },
+    "sub_fqBz": {
+        "is_sub": true,
+        "recognition": "OCR",
+        "expected": "放弃",
+        "roi": [
+            138,
+            790,
+            111,
+            61
+        ],
+        "action": "Click"
+    }
+}
