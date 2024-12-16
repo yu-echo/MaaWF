@@ -5,7 +5,28 @@
 
 <div align="center">
 
-# MaaPracticeBoilerplate
+基于 **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** 的弹射世界 小助手。图像技术 + 模拟控制，解放双手！
+
+Windows 端图形界面基于 **[MFAWPF](https://github.com/SweetSmellFox/MFAWPF)**。
+
+建议将模拟器分辨率配置固定为 `16:9` 或 `9:16` 。
+
+## 功能介绍
+
+### 1. 支持的游戏任务:
+
+- 🌿 日常一条龙
+
+  > 所有任务遇到体力不足或次数不足时会自动停止，并尝试进行后续任务。
+  >
+
+  - 🚀 模拟器、游戏自启动（首次需手动登录）
+  - 🔄 无限进铃铛（回归铃铛）
+  
+## 未来计划 ~~（画大饼）~~ :
+  - ~~每日单人挑战ing~~
+  - ~~自定义刷关卡ing~~
+  - ~~整个UI摸摸ing~~
 
 </div>
 
