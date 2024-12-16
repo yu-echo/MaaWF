@@ -1,0 +1,60 @@
+{
+    "controller": [
+        {
+            "name": "安卓端",
+            "type": "Adb"
+        }
+    ],
+    "resource": [
+        {
+            "name": "官服",
+            "path": [
+                "{PROJECT_DIR}/resource/base"
+            ]
+        }
+    ],
+    "task": [
+        {
+            "name": "启动游戏",
+            "entry": "StartUp"
+        },
+        {
+            "name": "单人地狱",
+            "entry": "Auto_DRdy"
+        },
+        {
+            "name": "无限铃铛",
+            "entry": "Auto_LD",
+            "option": [
+                "体满打活动"
+            ]
+        },
+        {
+            "name": "无限单人",
+            "entry": "Auto_DR"
+        }
+    ],
+    "option": {
+        "体满打活动": {
+            "cases": [
+                {
+                    "name": "好嘞",
+                    "param": {
+                        "sub_mtl": {
+                            "enabled": true
+                        }
+                    }
+                },
+                {
+                    "name": "不了",
+                    "param": {
+                        "sub_mtl": {
+                            "enabled": false
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "version": "v0.0.1"
+}
