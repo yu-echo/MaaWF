@@ -53,6 +53,7 @@ Windows 端图形界面基于 **[MFAWPF](https://github.com/SweetSmellFox/MFAWPF
 - 
 
 ## 未来计划 ~~（画大饼）~~ ：
+- ~~打赢复活赛ing~~
 - ~~每日单人挑战ing~~
 - ~~自定义刷关卡ing~~
 - ~~整个UI摸摸ing~~
